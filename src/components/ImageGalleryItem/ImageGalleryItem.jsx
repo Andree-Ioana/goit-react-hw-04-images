@@ -2,11 +2,11 @@
 import React from "react";
 import styles from './ImageGalleryItem.module.css';
 
-const ImageGalleryItem = ({imageUrl, onClick }) => {
+const ImageGalleryItem = ({imageUrl, onClick, tags }) => {
     
     return (
         <li className={styles.imageGalleryItem }>
-            <img src={imageUrl} alt="Photo" onClick={onClick}/>
+            <img src={imageUrl} onClick={onClick} alt={ tags} />
         </li>
     )
 }
