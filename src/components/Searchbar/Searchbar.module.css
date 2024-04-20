@@ -1,0 +1,24 @@
+
+.searchbarContainer{
+    background-color: rgb(143, 45, 74);
+    height: 40px;
+}
+.formSearch{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+input{
+    position: absolute;
+    padding: 4px 40px;
+    border: 1px solid;
+}
+
+.iconSearch{
+    z-index: 1;
+    
+}
+.button{
+    padding: 0px 0px;
+}
